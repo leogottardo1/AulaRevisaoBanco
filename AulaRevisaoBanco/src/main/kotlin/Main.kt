@@ -1,3 +1,5 @@
+import ui.menu
+
 fun main() {
-    println("Leonardo")
+    menu()
 }
