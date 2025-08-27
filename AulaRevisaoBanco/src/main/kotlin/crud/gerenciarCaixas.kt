@@ -1,5 +1,6 @@
 package crud
 
+import entidades.CaixaDAgua
 import enumeradores.Material
 
 fun cadastarCaixa(){
@@ -31,6 +32,16 @@ fun cadastarCaixa(){
     val litros = readln().toDouble()
 
     println("Largura da caixa:")
+
+    //salvar as variaveis agora dentro da classe
+    CaixaDAgua(
+        material = material,
+        blablablabla = bla,
+        profundida = prof,
+        largura = larg,
+        altura = alt,
+    )
+
 }
 fun editarCaixa(){
 
